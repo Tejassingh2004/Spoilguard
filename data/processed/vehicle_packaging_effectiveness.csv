@@ -1,0 +1,10 @@
+vehicle_type,packaging_quality,total_shipments,high_risk_pct
+Standard Truck,Basic,919,40.9
+Standard Truck,Standard,1322,40.8
+Insulated Non-Refrigerated,Basic,1036,37.5
+Standard Truck,Premium (Insulated + Gel Packs),723,37.3
+Refrigerated Truck,Basic,1111,32.8
+Insulated Non-Refrigerated,Standard,1567,31.6
+Insulated Non-Refrigerated,Premium (Insulated + Gel Packs),907,26.4
+Refrigerated Truck,Standard,1549,20.3
+Refrigerated Truck,Premium (Insulated + Gel Packs),866,4.4

@@ -1,0 +1,26 @@
+{
+  "best_classifier": "RandomForest",
+  "classification_metrics": {
+    "RandomForest": {
+      "macro_f1": 0.7865821800032325,
+      "roc_auc_ovr": 0.9627846648694801
+    },
+    "XGBoost": {
+      "macro_f1": 0.7493775114037905,
+      "roc_auc_ovr": 0.9639102686011363
+    }
+  },
+  "best_regressor": "XGBoost",
+  "regression_metrics": {
+    "RandomForest": {
+      "rmse": 16.874948314606403,
+      "mae": 9.943942752404968,
+      "r2": 0.9934373879808144
+    },
+    "XGBoost": {
+      "rmse": 16.794367243618105,
+      "mae": 10.30918646724024,
+      "r2": 0.9934999137654118
+    }
+  }
+}

@@ -1,0 +1,71 @@
+<svg viewBox="0 0 1000 480" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#555"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="480" fill="#ffffff"/>
+
+  <!-- Row 1: Data Sources -->
+  <rect x="30" y="30" width="200" height="60" rx="8" fill="#E3F2FD" stroke="#1976D2"/>
+  <text x="130" y="55" text-anchor="middle" font-size="13" font-weight="bold" fill="#0D47A1">Route Distances</text>
+  <text x="130" y="72" text-anchor="middle" font-size="11" fill="#0D47A1">(Real Indian city pairs)</text>
+
+  <rect x="260" y="30" width="200" height="60" rx="8" fill="#E3F2FD" stroke="#1976D2"/>
+  <text x="360" y="55" text-anchor="middle" font-size="13" font-weight="bold" fill="#0D47A1">Open-Meteo API</text>
+  <text x="360" y="72" text-anchor="middle" font-size="11" fill="#0D47A1">(Historical weather)</text>
+
+  <rect x="490" y="30" width="200" height="60" rx="8" fill="#E3F2FD" stroke="#1976D2"/>
+  <text x="590" y="55" text-anchor="middle" font-size="13" font-weight="bold" fill="#0D47A1">Shelf-Life Benchmarks</text>
+  <text x="590" y="72" text-anchor="middle" font-size="11" fill="#0D47A1">(Food-safety guidelines)</text>
+
+  <!-- Down arrows to simulator -->
+  <line x1="130" y1="90" x2="380" y2="130" stroke="#555" marker-end="url(#arrow)"/>
+  <line x1="360" y1="90" x2="380" y2="130" stroke="#555" marker-end="url(#arrow)"/>
+  <line x1="590" y1="90" x2="400" y2="130" stroke="#555" marker-end="url(#arrow)"/>
+
+  <!-- Simulator -->
+  <rect x="280" y="130" width="220" height="55" rx="8" fill="#FFF3E0" stroke="#F57C00"/>
+  <text x="390" y="163" text-anchor="middle" font-size="13" font-weight="bold" fill="#E65100">Data Simulator</text>
+
+  <line x1="390" y1="185" x2="390" y2="215" stroke="#555" marker-end="url(#arrow)"/>
+
+  <!-- Raw CSV -->
+  <rect x="300" y="215" width="180" height="45" rx="8" fill="#F5F5F5" stroke="#616161"/>
+  <text x="390" y="243" text-anchor="middle" font-size="13" font-weight="bold" fill="#333">shipments.csv</text>
+
+  <line x1="390" y1="260" x2="390" y2="290" stroke="#555" marker-end="url(#arrow)"/>
+
+  <!-- Feature engineering -->
+  <rect x="260" y="290" width="260" height="50" rx="8" fill="#FFF3E0" stroke="#F57C00"/>
+  <text x="390" y="320" text-anchor="middle" font-size="13" font-weight="bold" fill="#E65100">Cleaning + Feature Engineering</text>
+
+  <!-- Split into SQL and ML -->
+  <line x1="330" y1="340" x2="150" y2="380" stroke="#555" marker-end="url(#arrow)"/>
+  <line x1="450" y1="340" x2="630" y2="380" stroke="#555" marker-end="url(#arrow)"/>
+
+  <!-- SQL DB -->
+  <rect x="40" y="380" width="220" height="55" rx="8" fill="#E8F5E9" stroke="#388E3C"/>
+  <text x="150" y="413" text-anchor="middle" font-size="13" font-weight="bold" fill="#1B5E20">SQLite Database</text>
+
+  <line x1="150" y1="435" x2="150" y2="460" stroke="#555" marker-end="url(#arrow)"/>
+  <text x="150" y="475" text-anchor="middle" font-size="12" font-weight="bold" fill="#1B5E20">Power BI Dashboard</text>
+
+  <!-- ML models -->
+  <rect x="520" y="380" width="220" height="55" rx="8" fill="#E1F5FE" stroke="#0277BD"/>
+  <text x="630" y="405" text-anchor="middle" font-size="13" font-weight="bold" fill="#01579B">ML Models</text>
+  <text x="630" y="422" text-anchor="middle" font-size="11" fill="#01579B">RF + XGBoost (clf + reg)</text>
+
+  <line x1="740" y1="405" x2="800" y2="405" stroke="#555" marker-end="url(#arrow)"/>
+
+  <!-- Streamlit App -->
+  <rect x="800" y="290" width="180" height="230" rx="8" fill="#FCE4EC" stroke="#C2185B"/>
+  <text x="890" y="315" text-anchor="middle" font-size="13" font-weight="bold" fill="#880E4F">Streamlit App</text>
+  <text x="890" y="345" text-anchor="middle" font-size="11" fill="#880E4F">CSV Upload</text>
+  <text x="890" y="365" text-anchor="middle" font-size="11" fill="#880E4F">Single Prediction</text>
+  <text x="890" y="385" text-anchor="middle" font-size="11" fill="#880E4F">SHAP Explainability</text>
+  <text x="890" y="405" text-anchor="middle" font-size="11" fill="#880E4F">Risk Alerts</text>
+  <text x="890" y="425" text-anchor="middle" font-size="11" fill="#880E4F">PDF Report</text>
+  <text x="890" y="445" text-anchor="middle" font-size="11" fill="#880E4F">Deployed on</text>
+  <text x="890" y="463" text-anchor="middle" font-size="11" fill="#880E4F">Streamlit Cloud</text>
+</svg>

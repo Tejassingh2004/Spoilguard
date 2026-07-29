@@ -1,0 +1,26 @@
+feature,mean_abs_shap
+transit_vs_shelf_life_ratio,0.09518535312329783
+temp_excursion_hours,0.09140387469332555
+base_shelf_life_hr,0.0912655894177669
+product_category_Seafood,0.03477246144545812
+effective_transit_temp_c,0.025239531598753834
+product_category_Bakery,0.021148535152898787
+product_category_Milk & Dairy,0.02069982779621261
+transit_duration_hr,0.02054775817720526
+product_category_Tomatoes & Produce,0.017400262512710127
+product_category_Frozen Goods,0.01464345843118101
+product_category_Pharma (Vaccines),0.009339675065396095
+route_risk_score,0.009100742936887623
+distance_km,0.008943257316266813
+ambient_temp_c,0.008061965453025224
+product_category_Leafy Greens,0.007896405766733375
+product_category_Poultry & Meat,0.007862859494849515
+vehicle_type_Refrigerated Truck,0.007251258526794078
+temp_out_of_band,0.006796516833471401
+vehicle_type_Standard Truck,0.005334712188898392
+humidity_pct,0.003866594816287357
+packaging_quality_Premium (Insulated + Gel Packs),0.00350763615924405
+packaging_quality_Basic,0.0030431272584122812
+humidity_deviation,0.0019331422608194436
+vehicle_type_Insulated Non-Refrigerated,0.0017630764418089969
+packaging_quality_Standard,0.0013844557289571142

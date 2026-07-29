@@ -1,0 +1,9 @@
+product_category,total_shipments,avg_remaining_shelf_life_hr,high_risk_count
+Seafood,1206,2.3,1073
+Milk & Dairy,1283,8.2,853
+Poultry & Meat,1241,17.6,625
+Leafy Greens,1224,36.5,353
+Bakery,1247,27.3,104
+Pharma (Vaccines),1328,172.3,16
+Frozen Goods,1236,667.9,0
+Tomatoes & Produce,1235,138.7,0

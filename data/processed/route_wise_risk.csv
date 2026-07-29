@@ -1,0 +1,13 @@
+origin,destination,total_shipments,high_risk_count,high_risk_pct
+Guwahati,Kolkata,838,440,52.5
+Pune,Bengaluru,859,364,42.4
+Nagpur,Hyderabad,825,320,38.8
+Kolkata,Patna,872,317,36.4
+Ahmedabad,Mumbai,834,297,35.6
+Ooty,Chennai,805,286,35.5
+Vijayawada,Chennai,868,284,32.7
+Ludhiana,Delhi,825,184,22.3
+Jaipur,Delhi,856,182,21.3
+Indore,Bhopal,800,126,15.8
+Coimbatore,Kochi,798,114,14.3
+Nashik,Mumbai,820,110,13.4
