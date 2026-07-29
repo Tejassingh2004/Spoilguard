@@ -81,7 +81,7 @@ streamlit run streamlit_app.py
 5. **Analytics Layer**: SQLite database with indexed queries powering a Power BI dashboard (route risk heatmap, product-wise loss trends, monthly patterns).
 6. **Product Layer**: A Streamlit app supporting single-shipment prediction and CSV batch upload, with live alerts and downloadable PDF reports.
 
-## ⚠️ Known Limitations
+## ⚠️ Known limit
 
 - The "Medium" risk class has lower classification performance (F1 ~0.4) due to class imbalance and its position as a narrow boundary between Low and High risk — a common real-world pattern, addressable via class-weighting or targeted oversampling.
 - Dataset is simulated (grounded in real routes/weather/shelf-life science) rather than sourced from a live IoT sensor feed.
