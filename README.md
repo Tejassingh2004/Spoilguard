@@ -86,7 +86,7 @@ streamlit run streamlit_app.py
 - The "Medium" risk class has lower classification performance (F1 ~0.4) due to class imbalance and its position as a narrow boundary between Low and High risk — a common real-world pattern, addressable via class-weighting or targeted oversampling.
 - Dataset is simulated (grounded in real routes/weather/shelf-life science) rather than sourced from a live IoT sensor feed.
 
-## 🔮 Future Scope
+## 🔮 Future ab
 
 - Real IoT temperature sensor integration (replacing simulated ambient readings)
 - Live route optimization using real-time traffic APIs
