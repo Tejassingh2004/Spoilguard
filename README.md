@@ -100,3 +100,4 @@ Built SpoilGuard, an ML system predicting cold-chain spoilage risk and remaining
 ---
 
 *Author: Tejas Singh — Final Year B.Tech (CSBS), SRMIST*
+         Amartya Bargah — Final Year B.Tech (CSBS), SRMIST*
